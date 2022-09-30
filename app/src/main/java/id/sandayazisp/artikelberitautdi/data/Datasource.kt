@@ -3,6 +3,7 @@ package id.sandayazisp.artikelberitautdi.data
 import id.sandayazisp.artikelberitautdi.R
 import id.sandayazisp.artikelberitautdi.model.Artikel
 
+// membuat class Datasource sebagai sumber data dimana didalamnya terdapat fungsi loadArtikels() yang digunakan untuk menampilkan daftar dari Artikel
 class Datasource {
     fun loadArtikels(): List<Artikel> {
         return listOf<Artikel>(

@@ -11,14 +11,14 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        // Initialize data.
+        // Initial data
         val myDataset = Datasource().loadArtikels()
 
         val recyclerView = findViewById<RecyclerView>(R.id.recycler_view)
         recyclerView.adapter = ItemAdapter(this, myDataset)
 
-        // Use this setting to improve performance if you know that changes
-        // in content do not change the layout size of the RecyclerView
+        // code dibawah digunakan  untuk meningkatkan kinerja jika ada perubahan
+        // dalam hal ini tidak mengubah ukuran tata letak RecyclerView
         recyclerView.setHasFixedSize(true)
     }
 }

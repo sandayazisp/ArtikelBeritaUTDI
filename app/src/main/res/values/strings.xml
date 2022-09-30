@@ -1,3 +1,4 @@
+<!-- Menambahkan daftar data sebagai string resource yang nantinya untuk ditampilkan dalam aplikasi-->
 <resources>
     <string name="app_name">Artikel Berita UTDI</string>
     <string name="artikel1">STMIK Akakom Mendapat Hibah Laboratorium Cloud Big Data</string>

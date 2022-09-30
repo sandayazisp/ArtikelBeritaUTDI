@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--pada code materialCardView dibawah berfungsi untuk memberikan cara mudah untuk menampung sekelompok tampilan, sekaligus memberikan gaya yang konsisten untuk container.-->
+<!-- selain itu saya menambahkan atribut margin bernilai 8dp -->
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -16,6 +18,8 @@
             android:importantForAccessibility="no"
             android:scaleType="centerCrop" />
 
+<!--  pada code TextView dibawah kita memberikan id yaitu item_title dan menambahkan atribut padding bernilai 16dp      -->
+<!--  selain itu terdapat atribut textAppearance ke ?attr/textAppearanceHeadline6. textAppearance adalah atribut yang memungkinkan Anda menentukan gaya tertentu untuk teks.      -->
         <TextView
             android:id="@+id/item_title"
             android:layout_width="wrap_content"
