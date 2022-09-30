@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Artikel Berita UTDI</string>
-    <string name="artikel1">Informasi Perkuliahan Semester Ganjil 2022/2023</string>
-    <string name="artikel2">Surat Edaran Wakil Rektor Bagian Akademik</string>
-    <string name="artikel3">Pengumuman Penerimaan Dosen Tetap STMIK Akakom Yogyakarta Periode Semester Ganjil 2020-2021</string>
+    <string name="artikel1">STMIK Akakom Mendapat Hibah Laboratorium Cloud Big Data</string>
+    <string name="artikel2">Kuliah Umum “Big Data dan Smart City”</string>
+    <string name="artikel3">Talkshow dan Workshop “Skill Up to Modern Web Development”</string>
     <string name="artikel4">Pengenalan Studi dan Orientasi pada Kampus Akakom</string>
     <string name="artikel5">Pengumuman hasil seleksi beasiswa KIP-K.</string>
     <string name="artikel6">WEBINAR-ONLINE : "Berkenalan dengan Teknologi Artificial Intelligence"</string>

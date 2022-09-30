@@ -1,4 +1,9 @@
 package id.sandayazisp.artikelberitautdi.model
 
-data class Artikel(val stringResourceId: Int) {
-}
+import androidx.annotation.DrawableRes
+import androidx.annotation.StringRes
+
+data class Artikel(
+    @StringRes val stringResourceId: Int,
+    @DrawableRes val imageResourceId: Int
+)
